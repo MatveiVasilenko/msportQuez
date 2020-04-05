@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<img src="img/logo.png" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<form action="">
+				<div class="row">
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Как зовут Вашего ребенка?</label>
+						</div>
+						<div>
+							<input class="input-text mr-3" type="text" placeholder="Ваша фамилия">
+							<input class="input-text" type="text" placeholder="Ваше имя" minlength="6">
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Где учиться Ваш ребенок?</label>
+						</div>
+						<div>
+							<select class="input-select" name="" id="">
+								<option value="ОШ№3">ОШ№3</option>
+								<option value="ОШ№32">ОШ№32</option>
+								<option value="ОШ№13">ОШ№13</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Занимается ли Ваш ребенок спортом?</label>
+						</div>
+						<div>
+							<div>
+								<input class="input-radio" name="choose" id="yes" type="radio" checked>
+								<label for="yes">Да</label>
+							</div>
+							<div>
+								<input class="input-radio" name="choose" id="no" type="radio">
+								<label for="no">Нет</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Если нет, то почему?</label>
+						</div>
+						<div>
+							<textarea class="w-100" name="" id="" rows="3"></textarea>
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Сколько раз в неделю проходят занятия?</label>
+						</div>
+						<div>
+							<div>
+								<input class="input-radio" name="week" id="week1" type="radio" checked>
+								<label for="week1">1-2 раза в неделю</label>
+							</div>
+							<div>
+								<input class="input-radio" name="week" id="week2" type="radio">
+								<label for="week2">3-4 раза в неделю</label>
+							</div>
+							<div>
+								<input class="input-radio" name="week" id="week3" type="radio">
+								<label for="week3">5-6 раз в неделю</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Какими видами спорт занимается Ваш ребенок? 
+								<span style="font-style: italic; font-weight: 300;">(Не более 3 вариантов)</span>
+							</label>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport1" type="checkbox">
+										<label for="sport1">Футбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport2" type="checkbox">
+										<label for="sport2">Баскетбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport3" type="checkbox">
+										<label for="sport3">Волейбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport4" type="checkbox">
+										<label for="sport4">Скалолазание</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport5" type="checkbox">
+										<label for="sport5">Кроссфит</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport6" type="checkbox">
+										<label for="sport6">Workout</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport7" type="checkbox">
+										<label for="sport7">Единоборства</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport8" type="checkbox">
+										<label for="sport8">Бег</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport9" type="checkbox">
+										<label for="sport9">Фитнес</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport10" type="checkbox">
+										<label for="sport10">Борьба</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport11" type="checkbox">
+										<label for="sport11">Бокс</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport12" type="checkbox">
+										<label for="sport12">Йога</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport13" type="checkbox">
+										<label for="sport13">Альпинизм</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport14" type="checkbox">
+										<label for="sport14">Бейсбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport15" type="checkbox">
+										<label for="sport15">Гимнастика</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport16" type="checkbox">
+										<label for="sport16">Теннис</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport17" type="checkbox">
+										<label for="sport17">Настольный теннис</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport18" type="checkbox">
+										<label for="sport18">Шахматы</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport19" type="checkbox">
+										<label for="sport19">Серфинг</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport20" type="checkbox">
+										<label for="sport20">Велоспорт</label>
+									</div>
+								</div>
+							</div>
+
+							
+							<div>
+								<div>
+									<label for="yoursport">Ваш вариант</label>
+								</div>
+								<input class="input-text" name="choose" id="yoursport" type="text">
+							</div>
+						</div>
+					</div>
+
+					<div class="question col-md-10 offset-md-1">
+						<div class="title">
+							<label for="">Какими видами спорт занимается Ваш ребенок на физкультуре? 
+								<span style="font-style: italic; font-weight: 300;">(Не более 5 вариантов)</span>
+							</label>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport21" type="checkbox">
+										<label for="sport21">Футбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport22" type="checkbox">
+										<label for="sport22">Баскетбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport23" type="checkbox">
+										<label for="sport23">Волейбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport24" type="checkbox">
+										<label for="sport24">Скалолазание</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport25" type="checkbox">
+										<label for="sport25">Кроссфит</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport41" type="checkbox">
+										<label for="sport41">Фрисби</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport42" type="checkbox">
+										<label for="sport42">Флорбол</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport26" type="checkbox">
+										<label for="sport26">Workout</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport27" type="checkbox">
+										<label for="sport27">Единоборства</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport28" type="checkbox">
+										<label for="sport28">Бег</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport29" type="checkbox">
+										<label for="sport29">Фитнес</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport30" type="checkbox">
+										<label for="sport30">Борьба</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport44" type="checkbox">
+										<label for="sport44">Регби</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport45" type="checkbox">
+										<label for="sport45">Бадминтон</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport31" type="checkbox">
+										<label for="sport31">Бокс</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport32" type="checkbox">
+										<label for="sport32">Йога</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport33" type="checkbox">
+										<label for="sport33">Альпинизм</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport34" type="checkbox">
+										<label for="sport34">Бейсбол</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport35" type="checkbox">
+										<label for="sport35">Гимнастика</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport46" type="checkbox">
+										<label for="sport46">Черлидинг</label>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div>
+										<input class="input-radio" id="sport36" type="checkbox">
+										<label for="sport36">Теннис</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport37" type="checkbox">
+										<label for="sport37">Настольный теннис</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport38" type="checkbox">
+										<label for="sport38">Шахматы</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport39" type="checkbox">
+										<label for="sport39">Серфинг</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport40" type="checkbox">
+										<label for="sport40">Велоспорт</label>
+									</div>
+									<div>
+										<input class="input-radio" id="sport43" type="checkbox">
+										<label for="sport43">Петанк</label>
+									</div>
+								</div>
+							</div>
+							
+							<div>
+								<div>
+									<label for="yoursport">Ваш вариант</label>
+								</div>
+								<input class="input-text" name="choose" id="yoursport" type="text">
+							</div>
+						</div>
+						<button class="btn btn-custom">Отправить</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
