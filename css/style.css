@@ -50,3 +50,12 @@ body {
 		width: 100%;
 	}
 }
+
+#ifNoWhy {
+	opacity: 0;
+	transition: 0.3s all linear;
+}
+#howMany, #sportQuiz2, #sportQuiz1 {
+	opacity: 1;
+	transition: 0.3s all linear;
+}
