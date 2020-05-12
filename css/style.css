@@ -51,7 +51,7 @@ body {
 	}
 }
 
-#ifNoWhy {
+#ifNoWhy, #ifNoWhy2 {
 	opacity: 0;
 	transition: 0.3s all linear;
 }
